@@ -1,7 +1,7 @@
-name: Daily LinkedIn Post
+name: Weekly LinkedIn Post
 on:
   schedule:
-    - cron: '30 3 * * *'  # 9:00 AM IST (UTC+5:30 → 3:30 UTC)
+    - cron: '30 3 * * 6'  # Every Saturday 9:00 AM IST (UTC+5:30 → 3:30 UTC)
   workflow_dispatch:
 
 permissions:
